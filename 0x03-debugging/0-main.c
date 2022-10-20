@@ -1,20 +1,14 @@
-#include "main.h"
-
 /**
- * main - Prints Holberton as a message.
- *
- * Return: Always 0 (Success)
+ * main - tests function that prints if integer is positive or negative
+ * Return: 0
  */
+
 int main(void)
 {
-	int str[] = {95, 112, 117, 116, 99, 104, 97, 114};
-	int count, sz;
+	int i;
 
-	sz = sizeof(str) / sizeof(int);
-	for (count = 0; count < sz; count++)
-	{
-		_putchar(str[count]);
-	}
-	_putchar('\n');
+	i = 0;
+	positive_or_negative(i);
+
 	return (0);
 }
