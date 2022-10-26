@@ -1,15 +1,11 @@
 #include "main.h"
 /**
-* print_alphabet - a function that prints the alphabet, in lowercase
-*
-* Return: Always 0 (Succes)
-*/
-void print_alphabet(void)
+ * * add - a function that adds two integers and returns the result
+ * * @one: first number input
+ * * @two: second number input
+ * * Return: one+ two
+ */
+int add(int one, int two)
 {
-int n;
-for (n = 'a'; n <= 'z'; n++)
-{
-_putchar(n);
-}
-_putchar('\n');
+	return (one + two);
 }
