@@ -1,0 +1,1 @@
+The project consists of an auto QA review that will be launched at the deadline, and the completion of mandatory and optional tasks. The goal is to achieve a high-quality code implementation and meet the required objectives. 0x1C. C - Makefiles
